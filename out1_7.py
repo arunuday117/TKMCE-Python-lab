@@ -1,6 +1,6 @@
 l1=[2,4,1,3,5,8,9]
 l2=[4,6,0,6,8]
-s=len(l1)==len(l1)
+s=len(l1)==len(l2)
 p=sum(l1)==sum(l2)
 print("Lengths are same : ",s)
 print("Sum are equal : ",p)
