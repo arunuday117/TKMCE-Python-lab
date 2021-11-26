@@ -1,6 +1,6 @@
 print("(a)")
-l=[1,2,3,4,5,6,7,8,9,10]
-m=[x for x in l if x % 2 !=0]
+l=[-1,2,3,-4,-5,6,7,8,-9,-10]
+m=[x for x in l if x > 0 ]
 print("Positive list of numbers",m)
 print("(b)")
 c=int(input("Enter the limit : "))
