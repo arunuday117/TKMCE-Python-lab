@@ -1,0 +1,5 @@
+s=input("Enter a line of text")
+l=list(s.split(" "))
+print(l)
+l1=list(filter(lambda x:x[0].isupper(),l))
+print(l1)
