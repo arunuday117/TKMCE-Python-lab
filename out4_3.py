@@ -3,11 +3,11 @@ class Rectangle:
         self.length=length
         self.breadth=breadth
         self.area=length*breadth
-    def disparea(self):
-        print("Area of ",self.length," ",self.breadth," is ",self.area)
-r1=Rectangle(10,20)
+    def __lt__(self,m):
+        return self.area<m.area
+r1=Rectangle(50,20)
 r2=Rectangle(20,30)
-r1.disparea()
-r2.disparea()
-if r1.area<r2.area:
+if r1<r2:
     print("Rectangle one has largest area")
+else:
+    print("Rectangle two has largest area")
